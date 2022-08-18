@@ -90,3 +90,69 @@ p {
 		opacity: 1;
 	}
 }
+
+@media screen and (max-width: 1011px) {
+	#instruction {
+		font-size: 11px;
+	}
+	.feelO {
+		max-height: 110px;
+		/* border: 1px solid red; */
+	}
+	#serene,
+	#introspective {
+		height: 110px;
+	}
+
+	#visceral {
+		height: 110px;
+	}
+}
+@media screen and (max-width: 800px) {
+	.container {
+		justify-content: space-around;
+	}
+	.box {
+		width: 50%;
+		padding: 5px;
+		margin: 5px;
+	}
+	.feelO {
+		max-height: 100px;
+		/* border: 1px solid red; */
+	}
+	#serene,
+	#introspective {
+		height: 100px;
+	}
+
+	#visceral {
+		height: 100px;
+	}
+	#feelNext {
+		position: absolute;
+		right: 45%;
+		bottom: 10%;
+		transform: translate(25%, -25%);
+	}
+}
+@media screen and (max-width: 680px) {
+	.feelO {
+		max-height: 95px;
+		/* border: 1px solid red; */
+	}
+	#serene,
+	#introspective {
+		height: 95px;
+	}
+
+	#visceral {
+		height: 95px;
+	}
+	#feelNext {
+		position: absolute;
+		right: 45%;
+		bottom: 3%;
+		transform: translate(25%, -25%);
+	}
+}

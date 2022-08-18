@@ -1,13 +1,6 @@
 (function () {
 	'use strict';
 
-	// window.onload = function () {
-	// 	alert('placeholder images --> not related to the previous pages');
-	// };
-
-	// document.querySelector('button').addEventListener('click', function () {
-	// 	alert('this will display final results page -- have not started yet');
-	// });
 	const images = document.querySelectorAll('.feelO');
 
 	for (let i = 0; i < images.length; i++) {

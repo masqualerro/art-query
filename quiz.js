@@ -120,6 +120,9 @@
 		} else {
 			feeling.style.display = 'none';
 			instructions.innerHTML = `Name: ${userName} --- Age: ${userAge}`;
+			instructions.style.marginBottom = '0px';
+			instructions.style.paddingBottom = '0px';
+
 			fetchJson();
 		}
 	});
@@ -168,7 +171,7 @@
 		// 	feelArray.push('sublime');
 		// }
 
-		results.style.display = 'initial';
+		results.style.display = 'flex';
 		console.log(colorArray);
 		var granimInstance = new Granim({
 			element: '#gradient',
