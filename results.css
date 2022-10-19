@@ -158,4 +158,55 @@ p {
 	h2 {
 		font-size: 18px;
 	}
+	p {
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	#objCanvas {
+		max-width: 80%;
+	}
+	p {
+		font-size: 12.5px;
+	}
+	li {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 1063px) {
+	#objCanvas {
+		max-width: 80%;
+	}
+	p {
+		font-size: 12px;
+	}
+	li {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 1010px) {
+	#objCanvas {
+		max-width: 80%;
+	}
+	p {
+		font-size: 11px;
+	}
+	li {
+		font-size: 9px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	#objCanvas {
+		max-width: 80%;
+	}
+	p {
+		font-size: 9px;
+	}
+	li {
+		font-size: 8px;
+	}
 }
