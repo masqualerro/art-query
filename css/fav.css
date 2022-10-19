@@ -24,7 +24,7 @@
 #favNext {
 	position: absolute;
 	right: 50px;
-	bottom: 50px;
+	bottom: 30px;
 	background: none;
 	color: black;
 	outline: none;
@@ -99,5 +99,6 @@
 		right: 50%;
 		bottom: 25%;
 		transform: translate(25%, -25%);
+		transform-origin: left;
 	}
 }

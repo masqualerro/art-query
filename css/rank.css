@@ -27,8 +27,8 @@
 
 #rankNext {
 	position: absolute;
-	left: 90%;
-	bottom: 2%;
+	right: 50px;
+	bottom: 30px;
 	background: none;
 	color: black;
 	outline: none;
@@ -37,7 +37,7 @@
 	font-family: 'Inconsolata', monospace;
 	font-size: 20px;
 	transition: 0.25s ease;
-	transform-origin: top center;
+	transform-origin: center;
 }
 
 #rankNext:hover {
@@ -97,10 +97,10 @@
 		margin: 2px;
 	}
 	#rankNext {
-		left: 45%;
-		bottom: 2%;
-		transform: translate(45%, -2%);
-		transform-origin: center left;
+		left: 50%;
+		bottom: 3%;
+		/* transform: translate(45%, -2%); */
+		transform-origin: center;
 	}
 	#rankNext:hover {
 		background-color: white;
